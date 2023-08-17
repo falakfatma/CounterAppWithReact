@@ -1,0 +1,45 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:black;
+  height:100vh;
+  margin:0px;
+}
+.minusButton{
+  width:53px;
+  height:53px;
+  position:absolute;
+  left:-20px;
+  top:3.5rem;
+  font-size:xx-large;
+  border-radius:3rem;
+  background:gray;
+  color:white;
+  border:none;
+  cursor:pointer;
+}
+.addButton{
+  width:53px;
+  height:53px;
+  position:absolute;
+  right:-20px;
+  top:3.5rem;
+  font-size:xx-large;
+  border-radius:3rem;
+  background:gray;
+  border:none;
+  color:white;
+  cursor:pointer;
+}
+.valueText{
+  font-size:xx-large;
+  padding:2rem;
+  padding-right:2.9rem;
+  padding-left:2.9rem;
+  border-radius:5rem;
+  background:white;
+}
+.counterContainer{
+  position:relative;
+}
