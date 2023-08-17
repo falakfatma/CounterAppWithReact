@@ -2,7 +2,9 @@ import React from "react"
 export default function() {
   const [data, setData] = React.useState(0)
   function minusFunction() {
+    if(data>0){
     setData(data - 1)
+    }
   }
   function addFunction() {
     setData(data + 1)
