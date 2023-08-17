@@ -2,10 +2,10 @@ import React from "react"
 export default function() {
   const [data, setData] = React.useState(0)
   function minusFunction() {
-    setData()
+    setData(data - 1)
   }
   function addFunction() {
-    setData()
+    setData(data + 1)
   }
   return (
     <div className='counterContainer'>
